@@ -8,7 +8,7 @@ const AILandingPage = () => {
       {/* Navigation */}
       <nav className="flex items-center justify-between p-4 lg:p-6 max-w-7xl mx-auto">
         <div className="flex items-center">
-          <span className="text-xl font-bold">CrAI.studio</span>
+          <span className="text-xl font-bold">MK-Win</span>
         </div>
         <div className="hidden md:flex items-center space-x-8">
           <a href="#" className="hover:text-gray-300 transition-colors">Search</a>
@@ -30,7 +30,7 @@ const AILandingPage = () => {
       <main className="relative max-w-7xl mx-auto px-4 pt-8 md:pt-12 pb-24">
         {/* Background text */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 text-gray-800 text-[120px] md:text-[200px] font-bold opacity-20 select-none whitespace-nowrap">
-          GENERAT
+        Finish Him
         </div>
 
         {/* Main content */}
@@ -38,13 +38,13 @@ const AILandingPage = () => {
           {/* Text content */}
           <div className="w-full lg:w-1/2 text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Custom AI<br />Development
+              Custom Combat<br />Development
             </h1>
             <p className="text-gray-400 text-base md:text-lg mb-8 max-w-2xl mx-auto lg:mx-0">
-              We ignite the magic of intelligence, creating systems that bring brighter, unimaginable and leading-edge innovations.
+            We unleash the power of your character, creating innovative and lethal combat systems designed to push your skills to the limit in the Mortal Kombat arena. We develop techniques that redefine combat, offering unpredictable challenges and deadly strategies in every fight.
             </p>
             <button className="bg-gradient-to-r from-red-600 to-red-800 text-white px-6 md:px-8 py-3 md:py-4 rounded-2xl hover:from-red-700 hover:to-red-900 flex items-center space-x-2 group mx-auto lg:mx-0">
-              <span>Custom your AI</span>
+              <span>Custom Combat</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
 
