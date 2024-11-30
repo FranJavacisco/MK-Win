@@ -1,4 +1,4 @@
-import AILandingPage from './components/AILandingPage'
+import AILandingPage from './components/MK-Win'
 
 function App() {
   return (
