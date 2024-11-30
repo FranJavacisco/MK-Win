@@ -50,18 +50,6 @@ npm run dev
 npm run build
 ```
 
-## 📁 Estructura del Proyecto
-```
-src/
-├── assets/
-│   └── images/
-├── components/
-│   └── MK-Win/
-├── styles/
-│   └── animations/
-└── utils/
-```
-
 ## 🎨 Personalización
 El proyecto utiliza un sistema de diseño basado en Tailwind que puede ser personalizado a través de:
 - `tailwind.config.js` para temas y extensiones
