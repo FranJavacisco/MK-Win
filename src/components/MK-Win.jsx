@@ -1,6 +1,8 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import heroImagen from '../assets/hero.png'
+import heroImagen from '../assets/hero.jpg'
+import feature1 from '../assets/feature1.png'
+import feature2 from '../assets/feature2.png'
 
 const AILandingPage = () => {
   return (
@@ -30,7 +32,7 @@ const AILandingPage = () => {
       <main className="relative max-w-7xl mx-auto px-4 pt-8 md:pt-12 pb-24">
         {/* Background text */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 text-gray-800 text-[120px] md:text-[200px] font-bold opacity-20 select-none whitespace-nowrap">
-        Finish Him
+          Finish Him
         </div>
 
         {/* Main content */}
@@ -41,7 +43,7 @@ const AILandingPage = () => {
               Custom Combat<br />Development
             </h1>
             <p className="text-gray-400 text-base md:text-lg mb-8 max-w-2xl mx-auto lg:mx-0">
-            We unleash the power of your character, creating innovative and lethal combat systems designed to push your skills to the limit in the Mortal Kombat arena. We develop techniques that redefine combat, offering unpredictable challenges and deadly strategies in every fight.
+              We unleash the power of your character, creating innovative and lethal combat systems designed to push your skills to the limit in the Mortal Kombat arena. We develop techniques that redefine combat, offering unpredictable challenges and deadly strategies in every fight.
             </p>
             <button className="bg-gradient-to-r from-red-600 to-red-800 text-white px-6 md:px-8 py-3 md:py-4 rounded-2xl hover:from-red-700 hover:to-red-900 flex items-center space-x-2 group mx-auto lg:mx-0">
               <span>Custom Combat</span>
@@ -66,19 +68,19 @@ const AILandingPage = () => {
             <div className="relative aspect-square max-w-[500px] mx-auto group perspective">
               {/* Ambient light effect */}
               <div className="absolute inset-0 bg-gradient-radial from-red-500/20 via-transparent to-transparent blur-2xl group-hover:scale-110 transition-transform duration-700"></div>
-              
+
               {/* Hero image container with 3D effects */}
               <div className="relative z-10 transform group-hover:translate-z-10 group-hover:-translate-y-2 transition-all duration-500 preserve-3d">
                 {/* Floating shadow */}
                 <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 w-2/3 h-12 bg-red-500/10 blur-2xl rounded-full transform-gpu transition-all duration-500 group-hover:scale-110"></div>
-                
+
                 {/* Main image with effects */}
                 <div className="relative rounded-full overflow-hidden transform-gpu transition-transform duration-500 group-hover:scale-105">
                   {/* Glowing border */}
                   <div className="absolute inset-0 bg-gradient-to-tr from-red-500/20 via-blue-500/10 to-purple-500/20 animate-gradient"></div>
-                  
+
                   {/* Image */}
-                  <img 
+                  <img
                     src={heroImagen}
                     alt="AI Robot"
                     className="w-full h-full object-contain relative z-10 transform-gpu transition-all duration-500 animate-float"
@@ -86,33 +88,35 @@ const AILandingPage = () => {
                       filter: 'drop-shadow(0 0 20px rgba(255,0,0,0.2))',
                     }}
                   />
-                  
+
                   {/* Overlay effects */}
                   <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/20 mix-blend-overlay"></div>
                   <div className="absolute inset-0 bg-gradient-to-t from-transparent via-transparent to-white/10 mix-blend-overlay"></div>
                 </div>
               </div>
-              
+
               {/* Floating elements with enhanced effects */}
+
               <div className="absolute -left-8 top-1/4 w-20 h-20 md:w-24 md:h-24 z-20">
-                <div className="w-full h-full bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl 
-                               transform rotate-12 hover:rotate-0 transition-all duration-300
-                               hover:scale-110 shadow-lg hover:shadow-red-500/20
-                               animate-float-slow">
-                  {/* Inner glow */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-red-500/10 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-xl"></div>
-                </div>
+                <img
+                  src={feature1}  // Reemplaza con tu ruta de imagen
+                  alt="Feature 1"
+                  className="w-full h-full object-cover rounded-xl transform rotate-12 hover:rotate-0 
+               transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-red-500/20 
+               animate-float-slow"
+                />
               </div>
-              
+
               <div className="absolute -right-8 top-1/3 w-20 h-20 md:w-24 md:h-24 z-20">
-                <div className="w-full h-full bg-gradient-to-bl from-gray-900 to-gray-800 rounded-xl 
-                               transform -rotate-12 hover:rotate-0 transition-all duration-300
-                               hover:scale-110 shadow-lg hover:shadow-blue-500/20
-                               animate-float-slower">
-                  {/* Inner glow */}
-                  <div className="absolute inset-0 bg-gradient-to-l from-blue-500/10 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-xl"></div>
-                </div>
+                <img
+                  src={feature2}  // Reemplaza con tu ruta de imagen
+                  alt="Feature 2"
+                  className="w-full h-full object-cover rounded-xl transform -rotate-12 hover:rotate-0 
+               transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-blue-500/20 
+               animate-float-slower"
+                />
               </div>
+
             </div>
           </div>
         </div>
